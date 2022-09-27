@@ -1,0 +1,95 @@
+html{
+
+    background: #FFFFFF;
+
+    font-family: 'IBM Plex Mono', monospace;
+    color: aqua;
+
+}
+
+header{
+
+    background: #FFFFFF;
+
+}
+
+body{
+
+    background: #212f3d;
+
+}
+
+.titulo{
+
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+
+}
+
+.titulo-Area{
+
+    text-align: center;
+    font-size: 1em;
+    margin: 1em 1em 1em 1em;
+    clear: none;
+    padding: 1em;
+
+}
+
+.boton{
+
+    width: 20%;
+    padding: .5em 0 .5em 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    background:  #26c6da ;
+    border: none;
+    border-radius: 5px;
+    transition: 2s all;
+    cursor: pointer;
+    margin-left: auto;
+
+}
+
+.space {
+
+    height: auto;
+    display: inline-block;
+    margin-right: 100px;
+  }
+
+
+.boton:hover{
+
+    background: darkblue;
+    transform: scale(1.1);
+
+}
+
+footer{
+
+    text-align: center;
+    background: url(llave\ encriptada.jpg);
+    padding: 30px;
+
+}
+
+
+
+@media screen and (max-width:480px){
+
+    h1{
+
+        position: static;
+
+    }
+header, .titulo {
+
+    width: auto;
+
+}
+
+}
